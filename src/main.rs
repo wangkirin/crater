@@ -12,7 +12,7 @@ use std::process;
 
 fn main() {
     // Ignore errors loading `.env` file.
-    let _ = dotenv::dotenv();
+    let _ = dotenvy::dotenv();
 
     // Ensure it's possible to close Crater with a Ctrl+C even inside Docker (as PID 1).
     ctrlc::set_handler(|| {

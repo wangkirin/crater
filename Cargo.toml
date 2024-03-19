@@ -16,7 +16,7 @@ crates-index = { version = "2.2.0", default-features = false, features = ["git-p
 crossbeam-channel = "0.5"
 csv = "1.0.2"
 docsrs-metadata = { git = "https://github.com/rust-lang/docs.rs/" }
-dotenv = "0.15"
+dotenvy = "0.15.7"
 failure = "0.1.3"
 flate2 = "1"
 zstd = "0.13.0"
